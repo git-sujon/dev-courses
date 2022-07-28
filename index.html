@@ -27,23 +27,23 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mx-auto">
             <li class="nav-item me-5">
-              <a class="nav-link fw-semibold active" aria-current="page" href="#">Home</a>
+              <a class="nav-link fw-semibold active" aria-current="page" href="#home">Home</a>
             </li>
             <li class="nav-item me-5">
-              <a class="nav-link fw-semibold" href="#">Courses</a>
+              <a class="nav-link fw-semibold" href="#courses">Courses</a>
             </li>
             <li class="nav-item me-5">
-              <a class="nav-link fw-semibold" href="#">Deals</a>
+              <a class="nav-link fw-semibold" href="#deals">Deals</a>
             </li>
             <li class="nav-item me-5">
-              <a class="nav-link fw-semibold" href="#">Success</a>
+              <a class="nav-link fw-semibold" href="#success">Success</a>
             </li>
             <li class="nav-item me-5">
-              <a class="nav-link fw-semibold" href="#">About</a>
+              <a class="nav-link fw-semibold" href="#about">About</a>
             </li>
           </ul>
           <div>
-            <button class="btn btn-outline-primary" type="submit">Register</button>
+          <a class="btn btn-outline-primary" href="#register">Register</a>
           </div>
 
         </div>
@@ -52,12 +52,12 @@
     <!-- navbar End -->
     <!-- Carousel Start -->
 
-    <section class="container">
-      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+    <section class="container" id="home">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <!-- single carousel -->
           <div class="carousel-item  bg-dark" data-bs-interval="2500">
-            <img src="./images/cover/cover-1.png" class="d-block w-100 opacity-50" alt="...">
+            <img src="./images/cover/cover-1.jpg" class="d-block w-100 opacity-50"  alt="...">
             <div class="carousel-caption d-none d-md-block my-5">
               <h5 class="h1 fw-bolder ">Get job-ready for an in-demand career</h5>
               <p>Break into a new field like information technology or data science. No prior experience necessary to
@@ -103,13 +103,13 @@
     <!-- Carousel End -->
   </header>
 
-  <main class="container">
+  <main class="container" id="courses">
     <!-- Discover Our Popular Courses ----- Start ---- -->
 
-    <section class="text-center my-5">
+    <section class="text-center mt-5 mb-4">
       <!-- opular Courses Head Start -->
-      <div class="row my-5">
-        <div class="col my-5">
+      <div class="row">
+        <div class="col ">
           <h2 class="display-5 fw-bold">Explore Our Popular <br> Courses</h2>
           <p class="lead text-secondary">We've got the solution: world-class training and development programs developed
             by top universities and tech companies.</p>
@@ -119,11 +119,11 @@
     </section>
 
     <!-- Courses start -->
-    <section class="pb-5">
+    <section class="mb-5">
       <div class="">
         <div class="row gx-4 gy-3">
           <!-- single gutter  -->
-          <div class="col-6">
+          <div class="col-12 col-lg-6">
             <div class=" border d-flex">
               <div class="">
                 <img src="./images/course/course-3.png" alt="">
@@ -139,7 +139,7 @@
             </div>
           </div>
           <!-- single gutter  -->
-          <div class="col-6">
+          <div class="col-12 col-lg-6">
             <div class=" border d-flex">
               <div class="">
                 <img src="./images/course/course-1.png" alt="">
@@ -155,7 +155,7 @@
             </div>
           </div>
           <!-- single gutter  -->
-          <div class="col-6">
+          <div class="col-12 col-lg-6">
             <div class=" border d-flex">
               <div class="">
                 <img src="./images/course/course-2.png" alt="">
@@ -171,7 +171,7 @@
             </div>
           </div>
           <!-- single gutter  -->
-          <div class="col-6">
+          <div class="col-12 col-lg-6">
             <div class=" border d-flex">
               <div class="">
                 <img src="./images/course/course-4.png" alt="">
@@ -187,7 +187,7 @@
             </div>
           </div>
           <!-- single gutter  -->
-          <div class="col-6">
+          <div class="col-12 col-lg-6">
             <div class=" border d-flex">
               <div class="">
                 <img src="./images/course/course-5.png" alt="">
@@ -203,7 +203,7 @@
             </div>
           </div>
           <!-- single gutter  -->
-          <div class="col-6">
+          <div class="col-12 col-lg-6">
             <div class=" border d-flex">
               <div class="">
                 <img src="./images/course/course-6.png" class="" alt="">
@@ -230,12 +230,12 @@
     <!-- Discover Our Popular Courses ----- End ---- -->
 
     <!-- Explore e-learning Start -->
-    <section class="bg-info bg-opacity-10">
+    <section class="bg-info bg-opacity-10" id="deals">
       <div class="row">
-        <div class="col-lg-6">
-          <img src="/images/working.png" class="img-fluid" alt="">
+        <div class="col-lg-6 col-12">
+          <img src="/images/working.png" class="img-fluid w-100" alt="">
         </div>
-        <div class="col-lg-6 d-flex justify-content-center align-items-center">
+        <div class="col-lg-6 col-12 p-5 p-lg-3 d-flex justify-content-center align-items-center">
           <div class="">
             <div class="text">
               <h2 class="h1 fw-bolder">Explore Our E-learning Institute</h2>
@@ -280,7 +280,7 @@
 
     <!-- Ready To Join Section Start -->
 
-    <section class="bg-primary text-white my-5 p-5">
+    <section id="register" class="bg-primary text-white my-5 p-5">
       <div class="row">
         <div class="col-lg-6 col-12 ">
           <div>
@@ -363,7 +363,7 @@
     <!-- Meet our Student section start -->
 
     <!-- Meet our Student Head section -->
-    <section class="my-5">
+    <section id="success" class="mt-5 mb-2">
       <div class="row">
         <div class="col-lg-6">
           <h2 class="h1 text-black fw-bold">Meet Our Successfull Students</h2>
@@ -375,7 +375,7 @@
     <section>
       <div class="row">
         <!-- single Student -->
-        <div class="col-12 col-lg-3 col-md-6">
+        <div class="col-12 col-lg-3 col-md-6 mt-3">
           <div class="card  ">
             <img src="./images/student/student-1.png" class="card-img-top" alt="...">
             <div class="card-body">
@@ -385,7 +385,7 @@
           </div>
         </div>
         <!-- single Student -->
-        <div class="col-12 col-lg-3 col-md-6">
+        <div class="col-12 col-lg-3 col-md-6 mt-3">
           <div class="card  ">
             <img src="./images/student/student-2.png" class="card-img-top" alt="...">
             <div class="card-body">
@@ -395,7 +395,7 @@
           </div>
         </div>
         <!-- single Student -->
-        <div class="col-12 col-lg-3 col-md-6">
+        <div class="col-12 col-lg-3 col-md-6 mt-3">
           <div class="card  ">
             <img src="./images/student/student-3.png" class="card-img-top" alt="...">
             <div class="card-body">
@@ -405,7 +405,7 @@
           </div>
         </div>
         <!-- single Student -->
-        <div class="col-12 col-lg-3 col-md-6">
+        <div class="col-12 col-lg-3 col-md-6 mt-3">
           <div class="card  ">
             <img src="./images/student/student-4.png" class="card-img-top" alt="...">
             <div class="card-body">
@@ -424,7 +424,7 @@
     
     <!-- Student Feedback Start -->
      <!-- feedback heading -->
-    <section class="text-center my-5">
+    <section class="text-center mb-3 pt-5">
      <div class="row">
       <div class="col-12">
         <h2 class="h1 fw-bold text-black" >Hear from our community</h2>
@@ -434,7 +434,7 @@
     </section>
 
     <!-- feedback Section -->
-    <section>
+    <section class="mb-5 pb-5" >
       <div id="carousel-Feedback" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -442,7 +442,7 @@
             <div class="row">
               <!-- feedbacck-one -->
              <div class="col-lg-6 col-12">
-              <div class="me-2 shadow p-4 border">
+              <div class="me-2 shadow mb-5  p-4 border">
                 <div class="heading d-flex justify-content-between align-items-center">
                   <div class="comma">
                     <p class="display-1 text-secondary"><i class="fa fa-quote-right" aria-hidden="true"></i></p>
@@ -500,14 +500,16 @@
             </div>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon bg-primary rounded-5" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-          <span class="carousel-control-next-icon bg-primary rounded-5" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+        <div class="">
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon bg-primary rounded-5 d-none d-lg-block" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon bg-primary rounded-5 d-none d-lg-block" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
       </div>
     
     </section>
@@ -515,11 +517,11 @@
 
     <!-- FAQ Section Start -->
     <!-- Faq Header -->
-    <section class="my-5 text-center">
+    <section class="mt-5 mb-3 text-center" >
       <div class="row">
         <div class="col-12 col-lg-8 mx-auto">
           <h2 class="h1 text-black fw-bold">Frequently Asked Questions</h2>
-          <p class="text-secondary">We’ve got the solution: world-class training and development programs developed by top universities and companies. <br> In our Dev Courses education systeem</p>
+          <p class="text-secondary">We've got the solution: world-class training and development programs developed by top universities and companies. <br> In our Dev Courses education systeem</p>
         </div>
       </div>
     </section>
@@ -537,7 +539,7 @@
               </h2>
               <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  <p class="mb-0 text-secondary">Grid and flexbox. The basic difference between CSS Grid Layout and CSS Flexbox Layout is that flexbox was designed for layout in one dimension - either a row or a column. Grid was designed for two-dimensional layout - rows, and columns at the same time.</p>
                 </div>
               </div>
             </div>
@@ -549,35 +551,62 @@
               </h2>
               <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  <p class="mb-0 text-secondary">Bootstrap comes with a set of pre-styled responsive, mobile-first components that possess a definite UI kit. Tailwind CSS uses a set of utility classes to create a neat UI with more flexibility and uniqueness. Sites created using Bootstrap follow the generic pattern that makes them look identical.</p>
                 </div>
               </div>
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingThree">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  <p class="mb-0">What is CSS BoxModel?</p>
+                  <p class="mb-0">What is CSS Box Model?</p>
                 </button>
               </h2>
               <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                 <p class="mb-0 text-secondary">In CSS, the term "box model" is used when talking about design and layout. The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content.</p>
+                </div>
+              </div>
+            </div>
+              <!-- item added new -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingfour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                  <p class="mb-0">What is a Semantic tag?</p>
+                </button>
+              </h2>
+              <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p class="mb-0 text-secondary">Semantic HTML elements are those that clearly describe their meaning in a human- and machine-readable way. Elements such as <-header-> , <-footer-> and <-article-> are all considered semantic because they accurately describe the purpose of the element and the type of content that is inside them.</p>
+                </div>
+              </div>
+            </div>
+              <!-- item added new -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingfive">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefour">
+                  <p class="mb-0">What do you understand by the universal selector?</p>
+                </button>
+              </h2>
+              <div id="collapsefive" class="accordion-collapse collapse" aria-labelledby="headingfour" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p class="mb-0 text-secondary">The Universal Selector is the * in CSS. Literally the asterisk character. It is essentially a type selector that matches any type. Type meaning an HTML tag like div , body , button , or literally any of the others.</p>
+                </div>
+              </div>
+            </div>
+              <!-- item added new -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingsix">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesix" aria-expanded="false" aria-controls="collapsefour">
+                  <p class="mb-0">Differentiate between CSS3 and CSS2?</p>
+                </button>
+              </h2>
+              <div id="collapsesix" class="accordion-collapse collapse" aria-labelledby="headingfour" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p class="mb-0 text-secondary">The biggest difference between CSS2 and CSS3 is that CSS3 is now split into different modules. Since each module makes its way through the W3C individually, there's a wider range of browser support. Make sure you test your CSS3 pages in as many browsers and operating systems as possible to ensure compatibility.</p>
                 </div>
               </div>
             </div>
 
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  <p class="mb-0">What is a Semantic tag?</p>
-                </button>
-              </h2>
-              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
@@ -607,7 +636,7 @@
     <!-- Trusted companies End -->
   </main>
 
-  <footer class="bg-black text-light mt-5 py-5">
+  <footer id="about" class="bg-black text-light mt-5 py-5">
     <div class="row">
       <div class="col-12 ">
         <div class="text-center ">
